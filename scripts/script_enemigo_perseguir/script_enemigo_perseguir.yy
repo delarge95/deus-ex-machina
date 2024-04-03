@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"script_enemigo_perseguir",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_enemigo_perseguir",
+  "parent":{
+    "name":"Enemies",
+    "path":"folders/Scripts/Enemies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
