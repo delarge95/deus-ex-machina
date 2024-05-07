@@ -32,7 +32,7 @@ else
 /// @DnDVersion : 1
 /// @DnDHash : 2289DA66
 /// @DnDArgument : "xpos" "room_width - 50"
-/// @DnDArgument : "ypos" "room_height / 2 -180"
+/// @DnDArgument : "ypos" "room_height / 2"
 /// @DnDArgument : "objectid" "obj_controls"
 /// @DnDSaveInfo : "objectid" "obj_controls"
-instance_create_layer(room_width - 50, room_height / 2 -180, "Instances", obj_controls);
+instance_create_layer(room_width - 50, room_height / 2, "Instances", obj_controls);

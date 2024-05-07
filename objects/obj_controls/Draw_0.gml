@@ -11,8 +11,8 @@ draw_set_valign(fa_middle);
 /// @DnDHash : 38682081
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Move with W,A,S,D buttons\nJump with space button\nHit with M button\nShoot with K button""
-draw_text(x + 0, y + 0, string("Move with W,A,S,D buttons\nJump with space button\nHit with M button\nShoot with K button") + "");
+/// @DnDArgument : "caption" ""Move with W,A,S,D buttons\nJump with space button\nHit with M button\nShoot with K button\nInteract with E button\nMenu with Esc""
+draw_text(x + 0, y + 0, string("Move with W,A,S,D buttons\nJump with space button\nHit with M button\nShoot with K button\nInteract with E button\nMenu with Esc") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
