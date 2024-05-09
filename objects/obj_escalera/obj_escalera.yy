@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_escaleras",
-    "path":"sprites/spr_escaleras/spr_escaleras.yy",
+    "name":"spr_escalera",
+    "path":"sprites/spr_escalera/spr_escalera.yy",
   },
   "spriteMaskId":null,
   "visible":true,

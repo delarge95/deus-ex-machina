@@ -16,6 +16,8 @@ if (hor != 0){
 
 
 
+
+
 if (keyboard_check(vk_space) && vspeed == 0){
 	if (collision_rectangle(x-8,y,x+8,y+1,obj_solido,false,false)) {
 	vspeed = -6;
@@ -38,19 +40,21 @@ if (keyboard_check(ord("M"))){
 
 firingfrequency -=  1;
 if (hor != 0){
-	if (keyboard_check(ord("K")) && firingfrequency <= 0){
+	if (keyboard_check(ord("K")) && firingfrequency <= 0 && obj_system.personaje_energia > 0){
 		var bullet = instance_create_layer(x + 15 * image_xscale, y - 20, "Instances_1", obj_disparo);
 		bullet.image_xscale = image_xscale;
 		bullet.hspeed *=  image_xscale;
+		obj_system.personaje_energia -=3;
 		firingfrequency = 50;
 	}
 } else {
-	if (keyboard_check(ord("K")) && firingfrequency <= 0){
+	if (keyboard_check(ord("K")) && firingfrequency <= 0 && obj_system.personaje_energia > 0){
 		var bullet = instance_create_layer(x + 15 * image_xscale, y - 20, "Instances_1", obj_disparo);
 		bullet.image_xscale = image_xscale;
 		bullet.hspeed *=  image_xscale;
 		firingfrequency = 30;
 		sprite_index = spr_personaje_disparo_reposo;
+		obj_system.personaje_energia -=3;
 	}
 }
 
@@ -68,15 +72,26 @@ if( vspeed > 0 && keyboard_check(ord("K"))) {
 		sprite_index = spr_personaje_disparo_caer;
 		}
 		
-if (keyboard_check(ord("E"))) {
-	obj_pergamino.state = "abierto";
-}
 		
+	break;
+	
+	case "recupracion":
+	sprite_index = spr_recoger_botiquin;
+	break;
+	
+	
+	case "recarga":
+	sprite_index = spr_recoger_bateria;
 	break;
 	
 	case "muerto":
 		sprite_index = spr_personaje_morir
 	break;
+	
+	
+	
+
+	
+	
+	
 }
-
-

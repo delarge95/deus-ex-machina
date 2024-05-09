@@ -1,7 +1,2 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 6B2602E7
-/// @DnDArgument : "code" "event_inherited();$(13_10)$(13_10)room_goto(rm_titlemenu);"
-event_inherited();
-
-room_goto(rm_titleMenu);
+instance_create_depth(0, 0, -9999, obj_fade);
+room_goto_next();
