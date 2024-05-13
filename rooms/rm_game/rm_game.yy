@@ -3056,6 +3056,7 @@
     {"name":"inst_2DC2343F","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_71E75864","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_1401050C","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_564F2D24","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -3219,6 +3220,7 @@
         {"$GMRInstance":"","%Name":"inst_4AB305B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AB305B","objectId":{"name":"obj_kit_recuperacion","path":"objects/obj_kit_recuperacion/obj_kit_recuperacion.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":836.0,"y":352.0,},
         {"$GMRInstance":"","%Name":"inst_71E75864","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71E75864","objectId":{"name":"obj_bateria","path":"objects/obj_bateria/obj_bateria.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":132.0,"y":990.0,},
         {"$GMRInstance":"","%Name":"inst_1401050C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1401050C","objectId":{"name":"obj_personaje","path":"objects/obj_personaje/obj_personaje.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":792.0,"y":418.0,},
+        {"$GMRInstance":"","%Name":"inst_564F2D24","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_564F2D24","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":44.0,"y":22.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Estructura","depth":300,"effectEnabled":true,"effectType":null,"gridX":22,"gridY":22,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_142BF6BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_142BF6BE","objectId":{"name":"obj_solido","path":"objects/obj_solido/obj_solido.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1430.0,"y":330.0,},
@@ -6153,7 +6155,7 @@
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
   ],
   "viewSettings":{
-    "clearDisplayBuffer":true,
+    "clearDisplayBuffer":false,
     "clearViewBackground":false,
     "enableViews":true,
     "inheritViewSettings":false,

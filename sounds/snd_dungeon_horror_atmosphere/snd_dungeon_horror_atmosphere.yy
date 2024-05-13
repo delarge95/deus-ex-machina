@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_dungeon_horror_atmosphere",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":146.67975,
+  "name":"snd_dungeon_horror_atmosphere",
+  "parent":{
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_dungeon_horror_atmosphere.mp3",
+  "type":0,
+  "volume":1.0,
+}
