@@ -11,8 +11,8 @@ switch (state) {
 	break;
 	
 	case "muerto":
-	sprite_index = spr_leon_morir
-
+	sprite_index = spr_leon_morir;
+	
 	break;
 	
 	
@@ -20,12 +20,9 @@ switch (state) {
 		script_atacar()
 		sprite_index = spr_leon_ataque;
 		
-		firingfrequency -=  1;
-	if (firingfrequency <= 0){
-		firingfrequency = 60;
-		obj_system.personaje_hp -= dmg;
+		if !audio_is_playing(snd_leon_ataque){
+		audio_play_sound(snd_leon_ataque, 0, false);
 	}
-	
 		
 	break;
 	
@@ -33,6 +30,12 @@ switch (state) {
 	case "persecucion":
 	script_enemigo_perseguir()
 	sprite_index = spr_leon_correr;
+		
+		if !audio_is_playing(snd_leon_correr){
+		audio_play_sound(snd_leon_correr, 0, false);
+	}
 	
 	break;
+	
+	
 }

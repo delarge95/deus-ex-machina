@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_fondo_nivel_1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":160.608,
+  "name":"snd_fondo_nivel_1",
+  "parent":{
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_fondo_nivel_1.mp3",
+  "type":0,
+  "volume":0.37,
+}

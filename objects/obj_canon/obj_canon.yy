@@ -9,8 +9,8 @@
   "name":"obj_canon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Cañones",
+    "path":"folders/Objetos/Cañones.yy",
   },
   "parentObjectId":null,
   "persistent":false,

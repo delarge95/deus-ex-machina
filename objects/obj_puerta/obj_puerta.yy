@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_puerta",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_personaje","path":"objects/obj_personaje/obj_personaje.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_puerta",
   "overriddenProperties":[],

@@ -14,13 +14,19 @@ if (hor != 0){
 	sprite_index = spr_presonaje_reposo_der;
 }
 
-
+if (keyboard_check_pressed(ord("D")) && vspeed == 0 || keyboard_check_pressed(ord("A")) && vspeed == 0){
+	audio_play_sound(snd_correr, 1, true, 2);
+}
+if (keyboard_check_released(ord("D")) || keyboard_check_released(ord("A")) || vspeed <> 0){
+	audio_stop_sound(snd_correr);
+}
 
 
 
 if (keyboard_check(vk_space) && vspeed == 0){
 	if (collision_rectangle(x-8,y,x+8,y+1,obj_solido,false,false)) {
 	vspeed = -6;
+	audio_play_sound(snd_saltar, 0, false);
 	}
 }
 
@@ -35,6 +41,12 @@ if( vspeed > 0) {
 
 if (keyboard_check(ord("M"))){
 	sprite_index = spr_ataque_der;
+}
+if (keyboard_check_pressed(ord("M"))){
+	audio_play_sound(snd_espada, 1, true);
+}
+if (keyboard_check_released(ord("M"))){
+	audio_stop_sound(snd_espada);	
 }
 
 
@@ -68,6 +80,7 @@ if (hor != 0 && keyboard_check(ord("K"))){
 	}
 }
 
+
 if( vspeed > 0 && keyboard_check(ord("K"))) {
 		sprite_index = spr_personaje_disparo_caer;
 		}
@@ -85,10 +98,13 @@ if( vspeed > 0 && keyboard_check(ord("K"))) {
 	break;
 	
 	case "muerto":
-		sprite_index = spr_personaje_morir
+		sprite_index = spr_personaje_morir;
 	break;
 	
-	
+	case "guardando":
+		sprite_index = spr_guardado;
+		audio_play_sound(snd_guardar, 1, false);
+	break;
 	
 
 	

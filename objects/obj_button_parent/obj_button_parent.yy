@@ -13,8 +13,8 @@
   "name":"obj_button_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Botones",
+    "path":"folders/Objetos/Botones.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

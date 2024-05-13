@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_morir_personaje",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.272,
+  "name":"snd_morir_personaje",
+  "parent":{
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_morir_personaje.mp3",
+  "type":0,
+  "volume":1.0,
+}

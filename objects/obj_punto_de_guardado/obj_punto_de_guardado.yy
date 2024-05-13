@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_punto_de_guardado",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_personaje","path":"objects/obj_personaje/obj_personaje.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_punto_de_guardado",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_guardado",
-    "path":"sprites/spr_guardado/spr_guardado.yy",
+    "name":"spr_punto_de_guardado",
+    "path":"sprites/spr_punto_de_guardado/spr_punto_de_guardado.yy",
   },
   "spriteMaskId":null,
   "visible":true,

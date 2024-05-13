@@ -3,3 +3,6 @@ personaje_hp = 99;
 personaje_max_hp = 99;
 personaje_energia = 99;
 personaje_max_energia = 99;
+global.CHECKPOINT = noone;
+llave= "false";
+

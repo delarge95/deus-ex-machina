@@ -20,10 +20,8 @@ switch (state) {
 	script_atacar()
 	sprite_index = spr_guardia_ataque;
 		
-		firingfrequency -=  1;
-	if (firingfrequency <= 0){
-		firingfrequency = 60;
-		obj_system.personaje_hp -= dmg;
+		if !audio_is_playing(snd_guardia_ataque){
+		audio_play_sound(snd_guardia_ataque, 0, false);
 	}
 	
 	break;
@@ -32,6 +30,11 @@ switch (state) {
 	case "persecucion":
 	script_enemigo_perseguir()
 	sprite_index = spr_guardia_correr;
+	
+		if !audio_is_playing(snd_guardia_correr){
+		audio_play_sound(snd_guardia_correr, 0, false);
+	}
+	
 	
 	break;
 }
